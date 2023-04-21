@@ -40,9 +40,10 @@ http.createServer((req,res)=>{
             res.end(); 
         }
     })
-    .listen(PORT,()=>{
-        console.log(`server is listening at the local host ${PORT} port`)
+    
 })
+.listen(PORT,()=>{
+        console.log(`server is listening at the local host ${PORT} port`)
 })
 
 
